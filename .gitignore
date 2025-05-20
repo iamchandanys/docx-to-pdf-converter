@@ -53,5 +53,12 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 
-# Environment File
-Properties/launchSettings.json
+# User secrets and configuration
+appsettings.json
+
+# Visual Studio files
+.vs/
+
+# Redundant bin/obj (in case not already covered)
+bin/
+obj/
